@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="tab_text_selector">#ff5b3b</color>
+    <color name="tab_text_normal">#000000</color>
+    <color name="list_press">#90e5e6e7</color>
+    <color name="list_normal">#00000000</color>
+    <color name="text_normal">#ff5b3b</color>
+    <color name="text_press">#ffffff</color>
+    <color name="background_grey">#f8f6f5</color>
+    <color name="buy_disable">#70000000</color>
+    <color name="text_black">#333333</color>
+    <color name="category_bg_normal">#eeeeee</color>
+    <color name="category_bg_select">#ffffff</color>
+    <color name="text_grey">#999999</color>
+    <color name="text_size">#666666</color>
+    <color name="line_grey">#bababa</color>
+    <color name="devide_line">#CBCED2</color> <!-- 白色 -->
+    <color name="getredback">#cccccc</color>
+</resources>

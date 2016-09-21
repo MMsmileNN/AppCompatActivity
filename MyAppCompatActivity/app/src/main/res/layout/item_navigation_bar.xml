@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_head_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/tab_text_selector"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+ >
+
+            <ImageView
+                android:id="@+id/iv_address"
+                android:layout_width="29dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:src="@drawable/btn_back_selector" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="@color/text_press"
+            android:maxWidth="150dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:drawableLeft="@drawable/icon_map_white"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/icon_arrow_down_white"
+            android:singleLine="true"
+            android:textSize="16sp" 
+         />
+        <TextView
+            android:id="@+id/tv_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@color/tab_text_selector"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="@color/text_press"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+       
+            android:text="分享"
+            android:textColor="@color/text_press"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_confirm_update"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_modify"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_search"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_scan"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_search"
+            android:visibility="gone" />
+        <TextView 
+            android:id="@+id/tv_renshu"
+            android:layout_width="wrap_content"
+            android:background="@drawable/icon_renshu"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:layout_centerVertical="true"
+            android:paddingRight="2dp"
+            android:paddingTop="2dp"
+            android:visibility="gone"
+            android:gravity="right|top"
+            android:layout_marginRight="10dp"
+            android:textColor="#ff5b3b"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>
